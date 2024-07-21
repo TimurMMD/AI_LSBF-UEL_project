@@ -1,5 +1,5 @@
 # AI_LSBF-UEL_project
-Assignment for LSBF AI and MV course
+Assignment AI(CNN) project for LSBF AI&MV class
 
 Authors of the work are:
  - Timur Mamadaliyev
