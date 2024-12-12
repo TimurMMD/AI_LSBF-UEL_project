@@ -38,22 +38,25 @@ The project applies multiple methodologies to address the image classification p
    - Fine-tuned the model to adapt to the specific dataset.
 
 2. **Regression with Neural Networks**:
-   - Built a custom neural network to predict image-based regression outputs.
+   - Implemented a ResNet18 model pre-trained on ImageNet to predict image-based regression outputs.
 
 3. **Random Forest**:
    - Applied Random Forest as a benchmark for comparing performance against deep learning models.
 
 4. **Evaluation Metrics**:
-   - Accuracy for classification tasks.
-   - Mean Squared Error (MSE) and R² score for regression tasks.
+   - Accuracy by confusion matrix for classification tasks.
+   - Loss curve for regression tasks.
 
 ## Key Features
 - **ResNet18 Model**:
   - Fine-tuned for image classification with transfer learning.
   - Adapted to small datasets for improved generalization.
 
-- **Custom Regression Neural Network**:
-  - Developed a fully connected neural network for regression tasks.
+- **ResNet18 Regression Neural Network**:
+  - Implemented a ResNet18 neural network for regression tasks.
+
+- **Custom Neural Network**:
+  - Developed a fully connected neural network for classification tasks.  
 
 - **Random Forest Comparison**:
   - Applied Random Forest to evaluate its efficiency and limitations for image-based problems.
@@ -65,7 +68,7 @@ The project applies multiple methodologies to address the image classification p
 ### Prerequisites
 - Python 3.8+
 - Jupyter Notebook
-- Libraries: PyTorch, scikit-learn, Matplotlib, Pandas, NumPy
+- Libraries: PyTorch, scikit-learn, Matplotlib, Pandas, NumPy, torchvision, tensorflow, keras
 
 ### Steps
 1. Clone the repository:
@@ -88,7 +91,7 @@ The project applies multiple methodologies to address the image classification p
 ## Results and Insights
 - **Best Performing Model**: ResNet18 achieved the highest accuracy for image classification.
 - **Regression Performance**:
-  - Custom neural network provided reasonable predictions with an R² score of [value].
+  - Custom neural network provided reasonable predictions with a loss curve and MSE score of [value].
 - **Random Forest Comparison**:
   - Highlighted the limitations of traditional machine learning models for complex image data.
 
