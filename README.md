@@ -90,8 +90,10 @@ The project applies multiple methodologies to address the image classification p
 
 ## Results and Insights
 - **Best Performing Model**: ResNet18 achieved the highest accuracy for image classification.
-- **Regression Performance**:
-  - Custom neural network provided reasonable predictions with a loss curve and MSE score of [value].
+- **Custom model Performance**:
+  - Custom neural network provided reasonable predictions with a loss curve and accuracy score of image classification.
+- **Regression model Performance**:
+  - Regression neural network provided reasonable predictions with a loss curve and MSE score of image definition.
 - **Random Forest Comparison**:
   - Highlighted the limitations of traditional machine learning models for complex image data.
 
